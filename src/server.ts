@@ -1,17 +1,13 @@
 import express, { Request, Response } from 'express';
+require('./connect_db')
 import mysql from 'mysql2/promise';
 import axios from 'axios';
+require('dotenv').config()
 
 // Tạo một ứng dụng Express
 const app = express();
+const Port= process.env.PORT || 5000
 
-// Kết nối tới cơ sở dữ liệu MySQL
-const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'test2',
-});
 
 // Khai báo các endpoint cho REST API
 app.get('/results', async (req: Request, res: Response) => {
@@ -25,6 +21,6 @@ app.get('/results', async (req: Request, res: Response) => {
 });
 
 // Khởi động server
-app.listen(3000, () => {
-  console.log('Server is running on port 3001');
+app.listen(Port, () => {
+  console.log(`Server is running on port ${Port}`);
 });
