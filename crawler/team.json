@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Red Bull Racing",
+    "rank": "1",
+    "driver1": "Max Verstappen",
+    "driver2": "Sergio Perez"
+  },
+  {
+    "name": "Mercedes",
+    "rank": "2",
+    "driver1": "George Russell",
+    "driver2": "Lewis Hamilton"
+  },
+  {
+    "name": "Aston Martin",
+    "rank": "3",
+    "driver1": "Fernando Alonso",
+    "driver2": "Lance Stroll"
+  },
+  {
+    "name": "Ferrari",
+    "rank": "4",
+    "driver1": "Charles Leclerc",
+    "driver2": "Carlos Sainz"
+  },
+  {
+    "name": "Alpine",
+    "rank": "5",
+    "driver1": "Esteban Ocon",
+    "driver2": "Pierre Gasly"
+  },
+  {
+    "name": "McLaren",
+    "rank": "6",
+    "driver1": "Lando Norris",
+    "driver2": "Oscar Piastri"
+  },
+  {
+    "name": "Haas F1 Team",
+    "rank": "7",
+    "driver1": "Kevin Magnussen",
+    "driver2": "Nico Hulkenberg"
+  },
+  {
+    "name": "Alfa Romeo",
+    "rank": "8",
+    "driver1": "Guanyu Zhou",
+    "driver2": "Valtteri Bottas"
+  },
+  {
+    "name": "AlphaTauri",
+    "rank": "9",
+    "driver1": "Yuki Tsunoda",
+    "driver2": "Nyck De Vries"
+  },
+  {
+    "name": "Williams",
+    "rank": "10",
+    "driver1": "Alexander Albon",
+    "driver2": "Logan Sargeant"
+  }
+]

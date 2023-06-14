@@ -1,0 +1,1316 @@
+[
+  {
+    "startdate": "24 Mar",
+    "enddate": "26 Mar",
+    "place": "Australia ",
+    "pos1": "VET",
+    "pos2": "HAM",
+    "pos3": "BOT",
+    "year": 2017
+  },
+  {
+    "startdate": "07 Apr",
+    "enddate": "09 Apr",
+    "place": "China ",
+    "pos1": "HAM",
+    "pos2": "VET",
+    "pos3": "VER",
+    "year": 2017
+  },
+  {
+    "startdate": "14 Apr",
+    "enddate": "16 Apr",
+    "place": "Bahrain ",
+    "pos1": "VET",
+    "pos2": "HAM",
+    "pos3": "BOT",
+    "year": 2017
+  },
+  {
+    "startdate": "28 Apr",
+    "enddate": "30 Apr",
+    "place": "Russia ",
+    "pos1": "BOT",
+    "pos2": "VET",
+    "pos3": "RAI",
+    "year": 2017
+  },
+  {
+    "startdate": "12 May",
+    "enddate": "14 May",
+    "place": "Spain ",
+    "pos1": "HAM",
+    "pos2": "VET",
+    "pos3": "RIC",
+    "year": 2017
+  },
+  {
+    "startdate": "25 May",
+    "enddate": "28 May",
+    "place": "Monaco ",
+    "pos1": "VET",
+    "pos2": "RAI",
+    "pos3": "RIC",
+    "year": 2017
+  },
+  {
+    "startdate": "09 Jun",
+    "enddate": "11 Jun",
+    "place": "Canada ",
+    "pos1": "HAM",
+    "pos2": "BOT",
+    "pos3": "RIC",
+    "year": 2017
+  },
+  {
+    "startdate": "23 Jun",
+    "enddate": "25 Jun",
+    "place": "Azerbaijan ",
+    "pos1": "RIC",
+    "pos2": "BOT",
+    "pos3": "STR",
+    "year": 2017
+  },
+  {
+    "startdate": "07 Jul",
+    "enddate": "09 Jul",
+    "place": "Austria ",
+    "pos1": "BOT",
+    "pos2": "VET",
+    "pos3": "RIC",
+    "year": 2017
+  },
+  {
+    "startdate": "14 Jul",
+    "enddate": "16 Jul",
+    "place": "Great Britain ",
+    "pos1": "HAM",
+    "pos2": "BOT",
+    "pos3": "RAI",
+    "year": 2017
+  },
+  {
+    "startdate": "28 Jul",
+    "enddate": "30 Jul",
+    "place": "Hungary ",
+    "pos1": "VET",
+    "pos2": "RAI",
+    "pos3": "BOT",
+    "year": 2017
+  },
+  {
+    "startdate": "25 Aug",
+    "enddate": "27 Aug",
+    "place": "Belgium ",
+    "pos1": "HAM",
+    "pos2": "VET",
+    "pos3": "RIC",
+    "year": 2017
+  },
+  {
+    "startdate": "01 Sep",
+    "enddate": "03 Sep",
+    "place": "Italy ",
+    "pos1": "HAM",
+    "pos2": "BOT",
+    "pos3": "VET",
+    "year": 2017
+  },
+  {
+    "startdate": "15 Sep",
+    "enddate": "17 Sep",
+    "place": "Singapore ",
+    "pos1": "HAM",
+    "pos2": "RIC",
+    "pos3": "BOT",
+    "year": 2017
+  },
+  {
+    "startdate": "29 Sep",
+    "enddate": "01 Oct",
+    "place": "Malaysia ",
+    "pos1": "VER",
+    "pos2": "HAM",
+    "pos3": "RIC",
+    "year": 2017
+  },
+  {
+    "startdate": "06 Oct",
+    "enddate": "08 Oct",
+    "place": "Japan ",
+    "pos1": "HAM",
+    "pos2": "VER",
+    "pos3": "RIC",
+    "year": 2017
+  },
+  {
+    "startdate": "20 Oct",
+    "enddate": "22 Oct",
+    "place": "United States ",
+    "pos1": "HAM",
+    "pos2": "VET",
+    "pos3": "RAI",
+    "year": 2017
+  },
+  {
+    "startdate": "27 Oct",
+    "enddate": "29 Oct",
+    "place": "Mexico ",
+    "pos1": "VER",
+    "pos2": "BOT",
+    "pos3": "RAI",
+    "year": 2017
+  },
+  {
+    "startdate": "10 Nov",
+    "enddate": "12 Nov",
+    "place": "Brazil ",
+    "pos1": "VET",
+    "pos2": "BOT",
+    "pos3": "RAI",
+    "year": 2017
+  },
+  {
+    "startdate": "24 Nov",
+    "enddate": "26 Nov",
+    "place": "United Arab Emirates ",
+    "pos1": "BOT",
+    "pos2": "HAM",
+    "pos3": "VET",
+    "year": 2017
+  },
+  {
+    "startdate": "23 Mar",
+    "enddate": "25 Mar",
+    "place": "Australia ",
+    "pos1": "VET",
+    "pos2": "HAM",
+    "pos3": "RAI",
+    "year": 2018
+  },
+  {
+    "startdate": "06 Apr",
+    "enddate": "08 Apr",
+    "place": "Bahrain ",
+    "pos1": "VET",
+    "pos2": "BOT",
+    "pos3": "HAM",
+    "year": 2018
+  },
+  {
+    "startdate": "13 Apr",
+    "enddate": "15 Apr",
+    "place": "China ",
+    "pos1": "RIC",
+    "pos2": "BOT",
+    "pos3": "RAI",
+    "year": 2018
+  },
+  {
+    "startdate": "27 Apr",
+    "enddate": "29 Apr",
+    "place": "Azerbaijan ",
+    "pos1": "HAM",
+    "pos2": "RAI",
+    "pos3": "PER",
+    "year": 2018
+  },
+  {
+    "startdate": "11 May",
+    "enddate": "13 May",
+    "place": "Spain ",
+    "pos1": "HAM",
+    "pos2": "BOT",
+    "pos3": "VER",
+    "year": 2018
+  },
+  {
+    "startdate": "24 May",
+    "enddate": "27 May",
+    "place": "Monaco ",
+    "pos1": "RIC",
+    "pos2": "VET",
+    "pos3": "HAM",
+    "year": 2018
+  },
+  {
+    "startdate": "08 Jun",
+    "enddate": "10 Jun",
+    "place": "Canada ",
+    "pos1": "VET",
+    "pos2": "BOT",
+    "pos3": "VER",
+    "year": 2018
+  },
+  {
+    "startdate": "22 Jun",
+    "enddate": "24 Jun",
+    "place": "France ",
+    "pos1": "HAM",
+    "pos2": "VER",
+    "pos3": "RAI",
+    "year": 2018
+  },
+  {
+    "startdate": "29 Jun",
+    "enddate": "01 Jul",
+    "place": "Austria ",
+    "pos1": "VER",
+    "pos2": "RAI",
+    "pos3": "VET",
+    "year": 2018
+  },
+  {
+    "startdate": "06 Jul",
+    "enddate": "08 Jul",
+    "place": "Great Britain ",
+    "pos1": "VET",
+    "pos2": "HAM",
+    "pos3": "RAI",
+    "year": 2018
+  },
+  {
+    "startdate": "20 Jul",
+    "enddate": "22 Jul",
+    "place": "Germany ",
+    "pos1": "HAM",
+    "pos2": "BOT",
+    "pos3": "RAI",
+    "year": 2018
+  },
+  {
+    "startdate": "27 Jul",
+    "enddate": "29 Jul",
+    "place": "Hungary ",
+    "pos1": "HAM",
+    "pos2": "VET",
+    "pos3": "RAI",
+    "year": 2018
+  },
+  {
+    "startdate": "24 Aug",
+    "enddate": "26 Aug",
+    "place": "Belgium ",
+    "pos1": "VET",
+    "pos2": "HAM",
+    "pos3": "VER",
+    "year": 2018
+  },
+  {
+    "startdate": "31 Aug",
+    "enddate": "02 Sep",
+    "place": "Italy ",
+    "pos1": "HAM",
+    "pos2": "RAI",
+    "pos3": "BOT",
+    "year": 2018
+  },
+  {
+    "startdate": "14 Sep",
+    "enddate": "16 Sep",
+    "place": "Singapore ",
+    "pos1": "HAM",
+    "pos2": "VER",
+    "pos3": "VET",
+    "year": 2018
+  },
+  {
+    "startdate": "28 Sep",
+    "enddate": "30 Sep",
+    "place": "Russia ",
+    "pos1": "HAM",
+    "pos2": "BOT",
+    "pos3": "VET",
+    "year": 2018
+  },
+  {
+    "startdate": "05 Oct",
+    "enddate": "07 Oct",
+    "place": "Japan ",
+    "pos1": "HAM",
+    "pos2": "BOT",
+    "pos3": "VER",
+    "year": 2018
+  },
+  {
+    "startdate": "19 Oct",
+    "enddate": "21 Oct",
+    "place": "United States ",
+    "pos1": "RAI",
+    "pos2": "VER",
+    "pos3": "HAM",
+    "year": 2018
+  },
+  {
+    "startdate": "26 Oct",
+    "enddate": "28 Oct",
+    "place": "Mexico ",
+    "pos1": "VER",
+    "pos2": "VET",
+    "pos3": "RAI",
+    "year": 2018
+  },
+  {
+    "startdate": "09 Nov",
+    "enddate": "11 Nov",
+    "place": "Brazil ",
+    "pos1": "HAM",
+    "pos2": "VER",
+    "pos3": "RAI",
+    "year": 2018
+  },
+  {
+    "startdate": "23 Nov",
+    "enddate": "25 Nov",
+    "place": "United Arab Emirates ",
+    "pos1": "HAM",
+    "pos2": "VET",
+    "pos3": "VER",
+    "year": 2018
+  },
+  {
+    "startdate": "15 Mar",
+    "enddate": "17 Mar",
+    "place": "Australia ",
+    "pos1": "BOT",
+    "pos2": "HAM",
+    "pos3": "VER",
+    "year": 2019
+  },
+  {
+    "startdate": "29 Mar",
+    "enddate": "31 Mar",
+    "place": "Bahrain ",
+    "pos1": "HAM",
+    "pos2": "BOT",
+    "pos3": "LEC",
+    "year": 2019
+  },
+  {
+    "startdate": "12 Apr",
+    "enddate": "14 Apr",
+    "place": "China ",
+    "pos1": "HAM",
+    "pos2": "BOT",
+    "pos3": "VET",
+    "year": 2019
+  },
+  {
+    "startdate": "26 Apr",
+    "enddate": "28 Apr",
+    "place": "Azerbaijan ",
+    "pos1": "BOT",
+    "pos2": "HAM",
+    "pos3": "VET",
+    "year": 2019
+  },
+  {
+    "startdate": "10 May",
+    "enddate": "12 May",
+    "place": "Spain ",
+    "pos1": "HAM",
+    "pos2": "BOT",
+    "pos3": "VER",
+    "year": 2019
+  },
+  {
+    "startdate": "23 May",
+    "enddate": "26 May",
+    "place": "Monaco ",
+    "pos1": "HAM",
+    "pos2": "VET",
+    "pos3": "BOT",
+    "year": 2019
+  },
+  {
+    "startdate": "07 Jun",
+    "enddate": "09 Jun",
+    "place": "Canada ",
+    "pos1": "HAM",
+    "pos2": "VET",
+    "pos3": "LEC",
+    "year": 2019
+  },
+  {
+    "startdate": "21 Jun",
+    "enddate": "23 Jun",
+    "place": "France ",
+    "pos1": "HAM",
+    "pos2": "BOT",
+    "pos3": "LEC",
+    "year": 2019
+  },
+  {
+    "startdate": "28 Jun",
+    "enddate": "30 Jun",
+    "place": "Austria ",
+    "pos1": "VER",
+    "pos2": "LEC",
+    "pos3": "BOT",
+    "year": 2019
+  },
+  {
+    "startdate": "12 Jul",
+    "enddate": "14 Jul",
+    "place": "Great Britain ",
+    "pos1": "HAM",
+    "pos2": "BOT",
+    "pos3": "LEC",
+    "year": 2019
+  },
+  {
+    "startdate": "26 Jul",
+    "enddate": "28 Jul",
+    "place": "Germany ",
+    "pos1": "VER",
+    "pos2": "VET",
+    "pos3": "KVY",
+    "year": 2019
+  },
+  {
+    "startdate": "02 Aug",
+    "enddate": "04 Aug",
+    "place": "Hungary ",
+    "pos1": "HAM",
+    "pos2": "VER",
+    "pos3": "VET",
+    "year": 2019
+  },
+  {
+    "startdate": "30 Aug",
+    "enddate": "01 Sep",
+    "place": "Belgium ",
+    "pos1": "LEC",
+    "pos2": "HAM",
+    "pos3": "BOT",
+    "year": 2019
+  },
+  {
+    "startdate": "06 Sep",
+    "enddate": "08 Sep",
+    "place": "Italy ",
+    "pos1": "LEC",
+    "pos2": "BOT",
+    "pos3": "HAM",
+    "year": 2019
+  },
+  {
+    "startdate": "20 Sep",
+    "enddate": "22 Sep",
+    "place": "Singapore ",
+    "pos1": "VET",
+    "pos2": "LEC",
+    "pos3": "VER",
+    "year": 2019
+  },
+  {
+    "startdate": "27 Sep",
+    "enddate": "29 Sep",
+    "place": "Russia ",
+    "pos1": "HAM",
+    "pos2": "BOT",
+    "pos3": "LEC",
+    "year": 2019
+  },
+  {
+    "startdate": "11 Oct",
+    "enddate": "13 Oct",
+    "place": "Japan ",
+    "pos1": "BOT",
+    "pos2": "VET",
+    "pos3": "HAM",
+    "year": 2019
+  },
+  {
+    "startdate": "25 Oct",
+    "enddate": "27 Oct",
+    "place": "Mexico ",
+    "pos1": "HAM",
+    "pos2": "VET",
+    "pos3": "BOT",
+    "year": 2019
+  },
+  {
+    "startdate": "01 Nov",
+    "enddate": "03 Nov",
+    "place": "United States ",
+    "pos1": "BOT",
+    "pos2": "HAM",
+    "pos3": "VER",
+    "year": 2019
+  },
+  {
+    "startdate": "15 Nov",
+    "enddate": "17 Nov",
+    "place": "Brazil ",
+    "pos1": "VER",
+    "pos2": "GAS",
+    "pos3": "SAI",
+    "year": 2019
+  },
+  {
+    "startdate": "29 Nov",
+    "enddate": "01 Dec",
+    "place": "Abu Dhabi ",
+    "pos1": "HAM",
+    "pos2": "VER",
+    "pos3": "LEC",
+    "year": 2019
+  },
+  {
+    "startdate": "03 Jul",
+    "enddate": "05 Jul",
+    "place": "Austria ",
+    "pos1": "BOT",
+    "pos2": "LEC",
+    "pos3": "NOR",
+    "year": 2020
+  },
+  {
+    "startdate": "10 Jul",
+    "enddate": "12 Jul",
+    "place": "Austria ",
+    "pos1": "HAM",
+    "pos2": "BOT",
+    "pos3": "VER",
+    "year": 2020
+  },
+  {
+    "startdate": "17 Jul",
+    "enddate": "19 Jul",
+    "place": "Hungary ",
+    "pos1": "HAM",
+    "pos2": "VER",
+    "pos3": "BOT",
+    "year": 2020
+  },
+  {
+    "startdate": "31 Jul",
+    "enddate": "02 Aug",
+    "place": "Great Britain ",
+    "pos1": "HAM",
+    "pos2": "VER",
+    "pos3": "LEC",
+    "year": 2020
+  },
+  {
+    "startdate": "07 Aug",
+    "enddate": "09 Aug",
+    "place": "Great Britain ",
+    "pos1": "VER",
+    "pos2": "HAM",
+    "pos3": "BOT",
+    "year": 2020
+  },
+  {
+    "startdate": "14 Aug",
+    "enddate": "16 Aug",
+    "place": "Spain ",
+    "pos1": "HAM",
+    "pos2": "VER",
+    "pos3": "BOT",
+    "year": 2020
+  },
+  {
+    "startdate": "28 Aug",
+    "enddate": "30 Aug",
+    "place": "Belgium ",
+    "pos1": "HAM",
+    "pos2": "BOT",
+    "pos3": "VER",
+    "year": 2020
+  },
+  {
+    "startdate": "04 Sep",
+    "enddate": "06 Sep",
+    "place": "Italy ",
+    "pos1": "GAS",
+    "pos2": "SAI",
+    "pos3": "STR",
+    "year": 2020
+  },
+  {
+    "startdate": "11 Sep",
+    "enddate": "13 Sep",
+    "place": "Italy ",
+    "pos1": "HAM",
+    "pos2": "BOT",
+    "pos3": "ALB",
+    "year": 2020
+  },
+  {
+    "startdate": "25 Sep",
+    "enddate": "27 Sep",
+    "place": "Russia ",
+    "pos1": "BOT",
+    "pos2": "VER",
+    "pos3": "HAM",
+    "year": 2020
+  },
+  {
+    "startdate": "09 Oct",
+    "enddate": "11 Oct",
+    "place": "Germany ",
+    "pos1": "HAM",
+    "pos2": "VER",
+    "pos3": "RIC",
+    "year": 2020
+  },
+  {
+    "startdate": "23 Oct",
+    "enddate": "25 Oct",
+    "place": "Portugal ",
+    "pos1": "HAM",
+    "pos2": "BOT",
+    "pos3": "VER",
+    "year": 2020
+  },
+  {
+    "startdate": "31 Oct",
+    "enddate": "01 Nov",
+    "place": "Italy ",
+    "pos1": "HAM",
+    "pos2": "BOT",
+    "pos3": "RIC",
+    "year": 2020
+  },
+  {
+    "startdate": "13 Nov",
+    "enddate": "15 Nov",
+    "place": "Turkey ",
+    "pos1": "HAM",
+    "pos2": "PER",
+    "pos3": "VET",
+    "year": 2020
+  },
+  {
+    "startdate": "27 Nov",
+    "enddate": "29 Nov",
+    "place": "Bahrain ",
+    "pos1": "HAM",
+    "pos2": "VER",
+    "pos3": "ALB",
+    "year": 2020
+  },
+  {
+    "startdate": "04 Dec",
+    "enddate": "06 Dec",
+    "place": "Bahrain ",
+    "pos1": "PER",
+    "pos2": "OCO",
+    "pos3": "STR",
+    "year": 2020
+  },
+  {
+    "startdate": "11 Dec",
+    "enddate": "13 Dec",
+    "place": "Abu Dhabi ",
+    "pos1": "VER",
+    "pos2": "BOT",
+    "pos3": "HAM",
+    "year": 2020
+  },
+  {
+    "startdate": "26 Mar",
+    "enddate": "28 Mar",
+    "place": "Bahrain ",
+    "pos1": "HAM",
+    "pos2": "VER",
+    "pos3": "BOT",
+    "year": 2021
+  },
+  {
+    "startdate": "16 Apr",
+    "enddate": "18 Apr",
+    "place": "Italy ",
+    "pos1": "VER",
+    "pos2": "HAM",
+    "pos3": "NOR",
+    "year": 2021
+  },
+  {
+    "startdate": "30 Apr",
+    "enddate": "02 May",
+    "place": "Portugal ",
+    "pos1": "HAM",
+    "pos2": "VER",
+    "pos3": "BOT",
+    "year": 2021
+  },
+  {
+    "startdate": "07 May",
+    "enddate": "09 May",
+    "place": "Spain ",
+    "pos1": "HAM",
+    "pos2": "VER",
+    "pos3": "BOT",
+    "year": 2021
+  },
+  {
+    "startdate": "20 May",
+    "enddate": "23 May",
+    "place": "Monaco ",
+    "pos1": "VER",
+    "pos2": "SAI",
+    "pos3": "NOR",
+    "year": 2021
+  },
+  {
+    "startdate": "04 Jun",
+    "enddate": "06 Jun",
+    "place": "Azerbaijan ",
+    "pos1": "PER",
+    "pos2": "VET",
+    "pos3": "GAS",
+    "year": 2021
+  },
+  {
+    "startdate": "18 Jun",
+    "enddate": "20 Jun",
+    "place": "France ",
+    "pos1": "VER",
+    "pos2": "HAM",
+    "pos3": "PER",
+    "year": 2021
+  },
+  {
+    "startdate": "25 Jun",
+    "enddate": "27 Jun",
+    "place": "Austria ",
+    "pos1": "VER",
+    "pos2": "HAM",
+    "pos3": "BOT",
+    "year": 2021
+  },
+  {
+    "startdate": "02 Jul",
+    "enddate": "04 Jul",
+    "place": "Austria ",
+    "pos1": "VER",
+    "pos2": "BOT",
+    "pos3": "NOR",
+    "year": 2021
+  },
+  {
+    "startdate": "16 Jul",
+    "enddate": "18 Jul",
+    "place": "Great Britain ",
+    "pos1": "HAM",
+    "pos2": "LEC",
+    "pos3": "BOT",
+    "year": 2021
+  },
+  {
+    "startdate": "30 Jul",
+    "enddate": "01 Aug",
+    "place": "Hungary ",
+    "pos1": "OCO",
+    "pos2": "HAM",
+    "pos3": "SAI",
+    "year": 2021
+  },
+  {
+    "startdate": "27 Aug",
+    "enddate": "29 Aug",
+    "place": "Belgium ",
+    "pos1": "VER",
+    "pos2": "RUS",
+    "pos3": "HAM",
+    "year": 2021
+  },
+  {
+    "startdate": "03 Sep",
+    "enddate": "05 Sep",
+    "place": "Netherlands ",
+    "pos1": "VER",
+    "pos2": "HAM",
+    "pos3": "BOT",
+    "year": 2021
+  },
+  {
+    "startdate": "10 Sep",
+    "enddate": "12 Sep",
+    "place": "Italy ",
+    "pos1": "RIC",
+    "pos2": "NOR",
+    "pos3": "BOT",
+    "year": 2021
+  },
+  {
+    "startdate": "24 Sep",
+    "enddate": "26 Sep",
+    "place": "Russia ",
+    "pos1": "HAM",
+    "pos2": "VER",
+    "pos3": "SAI",
+    "year": 2021
+  },
+  {
+    "startdate": "08 Oct",
+    "enddate": "10 Oct",
+    "place": "Turkey ",
+    "pos1": "BOT",
+    "pos2": "VER",
+    "pos3": "PER",
+    "year": 2021
+  },
+  {
+    "startdate": "22 Oct",
+    "enddate": "24 Oct",
+    "place": "United States ",
+    "pos1": "VER",
+    "pos2": "HAM",
+    "pos3": "PER",
+    "year": 2021
+  },
+  {
+    "startdate": "05 Nov",
+    "enddate": "07 Nov",
+    "place": "Mexico ",
+    "pos1": "VER",
+    "pos2": "HAM",
+    "pos3": "PER",
+    "year": 2021
+  },
+  {
+    "startdate": "12 Nov",
+    "enddate": "14 Nov",
+    "place": "Brazil ",
+    "pos1": "HAM",
+    "pos2": "VER",
+    "pos3": "BOT",
+    "year": 2021
+  },
+  {
+    "startdate": "19 Nov",
+    "enddate": "21 Nov",
+    "place": "Qatar ",
+    "pos1": "HAM",
+    "pos2": "VER",
+    "pos3": "ALO",
+    "year": 2021
+  },
+  {
+    "startdate": "03 Dec",
+    "enddate": "05 Dec",
+    "place": "Saudi Arabia ",
+    "pos1": "HAM",
+    "pos2": "VER",
+    "pos3": "BOT",
+    "year": 2021
+  },
+  {
+    "startdate": "10 Dec",
+    "enddate": "12 Dec",
+    "place": "Abu Dhabi ",
+    "pos1": "VER",
+    "pos2": "HAM",
+    "pos3": "SAI",
+    "year": 2021
+  },
+  {
+    "startdate": "18 Mar",
+    "enddate": "20 Mar",
+    "place": "Bahrain ",
+    "pos1": "LEC",
+    "pos2": "SAI",
+    "pos3": "HAM",
+    "year": 2022
+  },
+  {
+    "startdate": "25 Mar",
+    "enddate": "27 Mar",
+    "place": "Saudi Arabia ",
+    "pos1": "VER",
+    "pos2": "LEC",
+    "pos3": "SAI",
+    "year": 2022
+  },
+  {
+    "startdate": "08 Apr",
+    "enddate": "10 Apr",
+    "place": "Australia ",
+    "pos1": "LEC",
+    "pos2": "PER",
+    "pos3": "RUS",
+    "year": 2022
+  },
+  {
+    "startdate": "22 Apr",
+    "enddate": "24 Apr",
+    "place": "Italy ",
+    "pos1": "VER",
+    "pos2": "PER",
+    "pos3": "NOR",
+    "year": 2022
+  },
+  {
+    "startdate": "06 May",
+    "enddate": "08 May",
+    "place": "United States ",
+    "pos1": "VER",
+    "pos2": "LEC",
+    "pos3": "SAI",
+    "year": 2022
+  },
+  {
+    "startdate": "20 May",
+    "enddate": "22 May",
+    "place": "Spain ",
+    "pos1": "VER",
+    "pos2": "PER",
+    "pos3": "RUS",
+    "year": 2022
+  },
+  {
+    "startdate": "27 May",
+    "enddate": "29 May",
+    "place": "Monaco ",
+    "pos1": "PER",
+    "pos2": "SAI",
+    "pos3": "VER",
+    "year": 2022
+  },
+  {
+    "startdate": "10 Jun",
+    "enddate": "12 Jun",
+    "place": "Azerbaijan ",
+    "pos1": "VER",
+    "pos2": "PER",
+    "pos3": "RUS",
+    "year": 2022
+  },
+  {
+    "startdate": "17 Jun",
+    "enddate": "19 Jun",
+    "place": "Canada ",
+    "pos1": "VER",
+    "pos2": "SAI",
+    "pos3": "HAM",
+    "year": 2022
+  },
+  {
+    "startdate": "01 Jul",
+    "enddate": "03 Jul",
+    "place": "Great Britain ",
+    "pos1": "SAI",
+    "pos2": "PER",
+    "pos3": "HAM",
+    "year": 2022
+  },
+  {
+    "startdate": "08 Jul",
+    "enddate": "10 Jul",
+    "place": "Austria ",
+    "pos1": "LEC",
+    "pos2": "VER",
+    "pos3": "HAM",
+    "year": 2022
+  },
+  {
+    "startdate": "22 Jul",
+    "enddate": "24 Jul",
+    "place": "France ",
+    "pos1": "VER",
+    "pos2": "HAM",
+    "pos3": "RUS",
+    "year": 2022
+  },
+  {
+    "startdate": "29 Jul",
+    "enddate": "31 Jul",
+    "place": "Hungary ",
+    "pos1": "VER",
+    "pos2": "HAM",
+    "pos3": "RUS",
+    "year": 2022
+  },
+  {
+    "startdate": "26 Aug",
+    "enddate": "28 Aug",
+    "place": "Belgium ",
+    "pos1": "VER",
+    "pos2": "PER",
+    "pos3": "SAI",
+    "year": 2022
+  },
+  {
+    "startdate": "02 Sep",
+    "enddate": "04 Sep",
+    "place": "Netherlands ",
+    "pos1": "VER",
+    "pos2": "RUS",
+    "pos3": "LEC",
+    "year": 2022
+  },
+  {
+    "startdate": "09 Sep",
+    "enddate": "11 Sep",
+    "place": "Italy ",
+    "pos1": "VER",
+    "pos2": "LEC",
+    "pos3": "RUS",
+    "year": 2022
+  },
+  {
+    "startdate": "30 Sep",
+    "enddate": "02 Oct",
+    "place": "Singapore ",
+    "pos1": "PER",
+    "pos2": "LEC",
+    "pos3": "SAI",
+    "year": 2022
+  },
+  {
+    "startdate": "07 Oct",
+    "enddate": "09 Oct",
+    "place": "Japan ",
+    "pos1": "VER",
+    "pos2": "PER",
+    "pos3": "LEC",
+    "year": 2022
+  },
+  {
+    "startdate": "21 Oct",
+    "enddate": "23 Oct",
+    "place": "United States ",
+    "pos1": "VER",
+    "pos2": "HAM",
+    "pos3": "LEC",
+    "year": 2022
+  },
+  {
+    "startdate": "28 Oct",
+    "enddate": "30 Oct",
+    "place": "Mexico ",
+    "pos1": "VER",
+    "pos2": "HAM",
+    "pos3": "PER",
+    "year": 2022
+  },
+  {
+    "startdate": "11 Nov",
+    "enddate": "13 Nov",
+    "place": "Brazil ",
+    "pos1": "RUS",
+    "pos2": "HAM",
+    "pos3": "SAI",
+    "year": 2022
+  },
+  {
+    "startdate": "18 Nov",
+    "enddate": "20 Nov",
+    "place": "Abu Dhabi ",
+    "pos1": "VER",
+    "pos2": "LEC",
+    "pos3": "PER",
+    "year": 2022
+  },
+  {
+    "startdate": "03 Mar",
+    "enddate": "05 Mar",
+    "place": "Bahrain ",
+    "pos1": "VER",
+    "pos2": "PER",
+    "pos3": "ALO",
+    "year": 2023
+  },
+  {
+    "startdate": "17 Mar",
+    "enddate": "19 Mar",
+    "place": "Saudi Arabia ",
+    "pos1": "PER",
+    "pos2": "VER",
+    "pos3": "ALO",
+    "year": 2023
+  },
+  {
+    "startdate": "31 Mar",
+    "enddate": "02 Apr",
+    "place": "Australia ",
+    "pos1": "VER",
+    "pos2": "HAM",
+    "pos3": "ALO",
+    "year": 2023
+  },
+  {
+    "startdate": "28 Apr",
+    "enddate": "30 Apr",
+    "place": "Azerbaijan ",
+    "pos1": "PER",
+    "pos2": "VER",
+    "pos3": "LEC",
+    "year": 2023
+  },
+  {
+    "startdate": "05 May",
+    "enddate": "07 May",
+    "place": "United States ",
+    "pos1": "VER",
+    "pos2": "PER",
+    "pos3": "ALO",
+    "year": 2023
+  },
+  {
+    "startdate": "19 May",
+    "enddate": "21 May",
+    "place": "Italy ",
+    "pos1": "",
+    "pos2": "",
+    "pos3": "",
+    "year": 2023
+  },
+  {
+    "startdate": "26 May",
+    "enddate": "28 May",
+    "place": "Monaco ",
+    "pos1": "VER",
+    "pos2": "ALO",
+    "pos3": "OCO",
+    "year": 2023
+  },
+  {
+    "startdate": "02 Jun",
+    "enddate": "04 Jun",
+    "place": "Spain ",
+    "pos1": "VER",
+    "pos2": "HAM",
+    "pos3": "RUS",
+    "year": 2023
+  },
+  {
+    "startdate": "16 Jun",
+    "enddate": "18 Jun",
+    "place": "Canada ",
+    "pos1": "",
+    "pos2": "",
+    "pos3": "",
+    "year": 2023
+  },
+  {
+    "startdate": "30 Jun",
+    "enddate": "02 Jul",
+    "place": "Austria ",
+    "pos1": "",
+    "pos2": "",
+    "pos3": "",
+    "year": 2023
+  },
+  {
+    "startdate": "07 Jul",
+    "enddate": "09 Jul",
+    "place": "Great Britain ",
+    "pos1": "",
+    "pos2": "",
+    "pos3": "",
+    "year": 2023
+  },
+  {
+    "startdate": "21 Jul",
+    "enddate": "23 Jul",
+    "place": "Hungary ",
+    "pos1": "",
+    "pos2": "",
+    "pos3": "",
+    "year": 2023
+  },
+  {
+    "startdate": "28 Jul",
+    "enddate": "30 Jul",
+    "place": "Belgium ",
+    "pos1": "",
+    "pos2": "",
+    "pos3": "",
+    "year": 2023
+  },
+  {
+    "startdate": "25 Aug",
+    "enddate": "27 Aug",
+    "place": "Netherlands ",
+    "pos1": "",
+    "pos2": "",
+    "pos3": "",
+    "year": 2023
+  },
+  {
+    "startdate": "01 Sep",
+    "enddate": "03 Sep",
+    "place": "Italy ",
+    "pos1": "",
+    "pos2": "",
+    "pos3": "",
+    "year": 2023
+  },
+  {
+    "startdate": "15 Sep",
+    "enddate": "17 Sep",
+    "place": "Singapore ",
+    "pos1": "",
+    "pos2": "",
+    "pos3": "",
+    "year": 2023
+  },
+  {
+    "startdate": "22 Sep",
+    "enddate": "24 Sep",
+    "place": "Japan ",
+    "pos1": "",
+    "pos2": "",
+    "pos3": "",
+    "year": 2023
+  },
+  {
+    "startdate": "06 Oct",
+    "enddate": "08 Oct",
+    "place": "Qatar ",
+    "pos1": "",
+    "pos2": "",
+    "pos3": "",
+    "year": 2023
+  },
+  {
+    "startdate": "20 Oct",
+    "enddate": "22 Oct",
+    "place": "United States ",
+    "pos1": "",
+    "pos2": "",
+    "pos3": "",
+    "year": 2023
+  },
+  {
+    "startdate": "27 Oct",
+    "enddate": "29 Oct",
+    "place": "Mexico ",
+    "pos1": "",
+    "pos2": "",
+    "pos3": "",
+    "year": 2023
+  },
+  {
+    "startdate": "03 Nov",
+    "enddate": "05 Nov",
+    "place": "Brazil ",
+    "pos1": "",
+    "pos2": "",
+    "pos3": "",
+    "year": 2023
+  },
+  {
+    "startdate": "16 Nov",
+    "enddate": "18 Nov",
+    "place": "United States ",
+    "pos1": "",
+    "pos2": "",
+    "pos3": "",
+    "year": 2023
+  },
+  {
+    "startdate": "24 Nov",
+    "enddate": "26 Nov",
+    "place": "Abu Dhabi ",
+    "pos1": "",
+    "pos2": "",
+    "pos3": "",
+    "year": 2023
+  }
+]

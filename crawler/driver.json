@@ -1,0 +1,182 @@
+[
+  {
+    "team": "Red Bull Racing",
+    "country": "Netherlands",
+    "point": "2181.5",
+    "champion": "2",
+    "fullname": "Max Verstappen",
+    "number": "",
+    "avt": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/verstappen.jpg.img.320.medium.jpg/1677069646195.jpg"
+  },
+  {
+    "team": "Red Bull Racing",
+    "country": "Mexico",
+    "point": "1318",
+    "champion": "N/A",
+    "fullname": "Sergio Perez",
+    "number": "",
+    "avt": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/perez.jpg.img.320.medium.jpg/1677069773437.jpg"
+  },
+  {
+    "team": "Aston Martin",
+    "country": "Spain",
+    "point": "2160",
+    "champion": "2",
+    "fullname": "Fernando Alonso",
+    "number": "",
+    "avt": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/alonso.jpg.img.320.medium.jpg/1677244577162.jpg"
+  },
+  {
+    "team": "Mercedes",
+    "country": "United Kingdom",
+    "point": "4492.5",
+    "champion": "7",
+    "fullname": "Lewis Hamilton",
+    "number": "",
+    "avt": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/hamilton.jpg.img.320.medium.jpg/1677069594164.jpg"
+  },
+  {
+    "team": "Mercedes",
+    "country": "United Kingdom",
+    "point": "359",
+    "champion": "N/A",
+    "fullname": "George Russell",
+    "number": "",
+    "avt": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/russell.jpg.img.320.medium.jpg/1677069334466.jpg"
+  },
+  {
+    "team": "Ferrari",
+    "country": "Spain",
+    "point": "840.5",
+    "champion": "N/A",
+    "fullname": "Carlos Sainz",
+    "number": "",
+    "avt": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/sainz.jpg.img.320.medium.jpg/1677069189406.jpg"
+  },
+  {
+    "team": "Ferrari",
+    "country": "Monaco",
+    "point": "910",
+    "champion": "N/A",
+    "fullname": "Charles Leclerc",
+    "number": "",
+    "avt": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/leclerc.jpg.img.320.medium.jpg/1677069223130.jpg"
+  },
+  {
+    "team": "Aston Martin",
+    "country": "Canada",
+    "point": "229",
+    "champion": "N/A",
+    "fullname": "Lance Stroll",
+    "number": "",
+    "avt": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/stroll.jpg.img.320.medium.jpg/1677069453013.jpg"
+  },
+  {
+    "team": "Alpine",
+    "country": "France",
+    "point": "389",
+    "champion": "N/A",
+    "fullname": "Esteban Ocon",
+    "number": "",
+    "avt": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/ocon.jpg.img.320.medium.jpg/1677069269007.jpg"
+  },
+  {
+    "team": "Alpine",
+    "country": "France",
+    "point": "347",
+    "champion": "N/A",
+    "fullname": "Pierre Gasly",
+    "number": "",
+    "avt": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/gasly.jpg.img.320.medium.jpg/1676983081984.jpg"
+  },
+  {
+    "team": "McLaren",
+    "country": "United Kingdom",
+    "point": "440",
+    "champion": "N/A",
+    "fullname": "Lando Norris",
+    "number": "",
+    "avt": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/norris.jpg.img.320.medium.jpg/1677069505471.jpg"
+  },
+  {
+    "team": "Haas F1 Team",
+    "country": "Germany",
+    "point": "527",
+    "champion": "N/A",
+    "fullname": "Nico Hulkenberg",
+    "number": "",
+    "avt": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/hulkenberg.jpg.img.320.medium.jpg/1676983071882.jpg"
+  },
+  {
+    "team": "McLaren",
+    "country": "Australia",
+    "point": "5",
+    "champion": "N/A",
+    "fullname": "Oscar Piastri",
+    "number": "",
+    "avt": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/piastri.jpg.img.320.medium.jpg/1676983075734.jpg"
+  },
+  {
+    "team": "Alfa Romeo",
+    "country": "Finland",
+    "point": "1791",
+    "champion": "N/A",
+    "fullname": "Valtteri Bottas",
+    "number": "",
+    "avt": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/bottas.jpg.img.320.medium.jpg/1677069810695.jpg"
+  },
+  {
+    "team": "Alfa Romeo",
+    "country": "China",
+    "point": "10",
+    "champion": "N/A",
+    "fullname": "Zhou Guanyu",
+    "number": "",
+    "avt": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/zhou.jpg.img.320.medium.jpg/1677069909295.jpg"
+  },
+  {
+    "team": "AlphaTauri",
+    "country": "Japan",
+    "point": "46",
+    "champion": "N/A",
+    "fullname": "Yuki Tsunoda",
+    "number": "",
+    "avt": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/tsunoda.jpg.img.320.medium.jpg/1677069846213.jpg"
+  },
+  {
+    "team": "Haas F1 Team",
+    "country": "Denmark",
+    "point": "185",
+    "champion": "N/A",
+    "fullname": "Kevin Magnussen",
+    "number": "",
+    "avt": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/magnussen.jpg.img.320.medium.jpg/1677069387823.jpg"
+  },
+  {
+    "team": "Williams",
+    "country": "Thailand",
+    "point": "202",
+    "champion": "N/A",
+    "fullname": "Alexander Albon",
+    "number": "",
+    "avt": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/albon.jpg.img.320.medium.jpg/1677068770293.jpg"
+  },
+  {
+    "team": "AlphaTauri",
+    "country": "Netherlands",
+    "point": "2",
+    "champion": "N/A",
+    "fullname": "Nyck De Vries",
+    "number": "",
+    "avt": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/devries.jpg.img.320.medium.jpg/1676983081637.jpg"
+  },
+  {
+    "team": "Williams",
+    "country": "United States",
+    "point": "0",
+    "champion": "N/A",
+    "fullname": "Logan Sargeant",
+    "number": "",
+    "avt": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/sargeant.jpg.img.320.medium.jpg/1676983079144.jpg"
+  }
+]
