@@ -60,15 +60,22 @@ async function crawlDetailDriver(link){
         infos.push(info);
       })
     let drivername= $('.driver-name').text().trim().replace(/\n/g, '');
-    let drivernumber = $('.driver-image-crop-inner.driver-number span').text().trim().replace(/\n/g, '');
+    let drivernumber = $('.driver-details .driver-number span').text().trim().replace(/\n/g, '');
     let avt=$('.driver-image-crop-inner .fom-adaptiveimage .fallback').html();
     const srcPattern = /src="([^"]+)"/; // Mẫu để tìm kiếm giá trị trong src attribute
     const match = avt.match(srcPattern);
     if (match && match.length > 1) {
       avt = match[1];}
 
-    console.log(avt)
-    drivers.push({team: infos[0], country: infos[1], point: infos[3], champion: infos[5], fullname: drivername, number: drivernumber, avt: avt});
+    drivers.push({
+      team: infos[0], 
+      country: infos[1], 
+      point: Number(infos[3]), 
+      champion: infos[5]=="N/A"?0:Number(infos[5]), 
+      fullname: drivername, 
+      number: Number(drivernumber), 
+      avt: avt
+    });
 
   } catch (error) {
     console.error(`Error crawling DetailDriver link: ${url}${link}`, error);

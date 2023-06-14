@@ -7,6 +7,10 @@ const url = 'https://www.formula1.com';
 const categories = [];
 
 const results=[]
+const resultsDriver=[]
+const resultsDHL=[]
+const resultsTeam=[]
+const resultsRace=[]
 
 function writeResults(filename, data){
   // console.log(results)
@@ -42,7 +46,10 @@ async function crawlMain(){
         // if (category==="Results") await crawlResult(category);
       }
 
-      writeResults('result.json', results)  
+      writeResults('resultDriver.json', resultsDriver)  
+      writeResults('resultTeam.json', resultsTeam)  
+      writeResults('resultDHL.json', resultsDHL)  
+      writeResults('resultRace.json', resultsRace)  
 
 
     } catch (error) {
@@ -73,7 +80,7 @@ async function crawlResult(category) {
     // await crawlFulldataResult('fastest-laps','2023')
     
     for (let i = 0; i < theyears.length; i++) {
-      if (theyears[i]==='1979') break;
+      if (theyears[i]==='2016') break;
       for (let j = 0; j < thetypes.length; j++) {
         await crawlFulldataResult(links[j], theyears[i])
       }
@@ -100,13 +107,13 @@ async function crawlFulldataResult(type,year){
       $('table tbody tr')
         .map((i, element)=>{
             const date = $(element).find('.dark.hide-for-mobile').text();
-            const timeComplete = $(element).find('.hide-for-tablet').text();
+            const timeComplete = $(element).find('.hide-for-tablet').eq(1).text();
             const car = $(element).find('.semi-bold').text();
             const country = $(element).find('.dark.bold a').text().trim().replace(/\n/g, '');
             const firstname = $(element).find('.dark.bold .hide-for-tablet').text();
             const lastname = $(element).find('.dark.bold .hide-for-mobile').text();
             if (date && car && timeComplete) {
-              results.push({date: date, car: car, timeComplete: timeComplete, country: country, driver: `${firstname} ${lastname}`, type: 'Race', year:year});
+              resultsRace.push({date: date, car: car, timeComplete: timeComplete, country: country, driver: `${firstname} ${lastname}`, year:Number(year)});
             }
         })
     if (type === 'team')
@@ -116,7 +123,7 @@ async function crawlFulldataResult(type,year){
             const team = $(element).find('td a').text();
             const point = $(element).find('.dark.bold').eq(1).text();
             if (pos) {
-              results.push({team: team, pos: pos, point:point, type: 'Team', year:year});
+              resultsTeam.push({team: team, pos: Number(pos), point:Number(point), year:Number(year)});
             }
           })
     if (type === 'drivers')
@@ -129,7 +136,7 @@ async function crawlFulldataResult(type,year){
           const lastname = $(element).find('td a .hide-for-mobile').text();
           
           if (pos) {
-            results.push({driver: `${firstname} ${lastname}`, pos: pos, point:point, car:car ,type: 'Driver', year:year});
+            resultsDriver.push({driver: `${firstname} ${lastname}`, pos: Number(pos), point:Number(point), car:car, year:Number(year)});
           }
         })
     if (type === 'fastest-laps')
@@ -143,13 +150,11 @@ async function crawlFulldataResult(type,year){
           const lastname = $(element).find('.width25 .hide-for-mobile').text();
           const timeComplete = $(element).find('.dark.bold').eq(1).text();
           
+          // console.log("  >>>  ",timeComplete);
           if (car) {
-            results.push({driver: `${firstname} ${lastname}`, timeComplete: timeComplete, country:country, car:car ,type: 'DHL FASTEST LAP AWARD', year:year});
+            resultsDHL.push({driver: `${firstname} ${lastname}`, timeComplete: timeComplete, country:country, car:car, year:Number(year)});
           }
-        })
-        
-
-
+        })        
 
   }catch(error){
     console.error(`Error crawling function crawlFulldataResult: `, error);

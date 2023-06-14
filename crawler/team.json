@@ -1,62 +1,62 @@
 [
   {
-    "name": "Red Bull Racing",
-    "rank": "1",
-    "driver1": "Max Verstappen",
-    "driver2": "Sergio Perez"
+    "fullname": "Oracle Red Bull Racing",
+    "team_chief": "Christian Horner",
+    "champion": 5,
+    "name": "Red Bull Racing"
   },
   {
-    "name": "Mercedes",
-    "rank": "2",
-    "driver1": "George Russell",
-    "driver2": "Lewis Hamilton"
+    "fullname": "Mercedes-AMG PETRONAS F1 Team",
+    "team_chief": "Toto Wolff",
+    "champion": 8,
+    "name": "Mercedes"
   },
   {
-    "name": "Aston Martin",
-    "rank": "3",
-    "driver1": "Fernando Alonso",
-    "driver2": "Lance Stroll"
+    "fullname": "Aston Martin Aramco Cognizant F1 Team",
+    "team_chief": "Mike Krack",
+    "champion": 0,
+    "name": "Aston Martin"
   },
   {
-    "name": "Ferrari",
-    "rank": "4",
-    "driver1": "Charles Leclerc",
-    "driver2": "Carlos Sainz"
+    "fullname": "Scuderia Ferrari",
+    "team_chief": "Frédéric Vasseur",
+    "champion": 16,
+    "name": "Ferrari"
   },
   {
-    "name": "Alpine",
-    "rank": "5",
-    "driver1": "Esteban Ocon",
-    "driver2": "Pierre Gasly"
+    "fullname": "BWT Alpine F1 Team",
+    "team_chief": "Otmar Szafnauer",
+    "champion": 2,
+    "name": "Alpine"
   },
   {
-    "name": "McLaren",
-    "rank": "6",
-    "driver1": "Lando Norris",
-    "driver2": "Oscar Piastri"
+    "fullname": "McLaren F1 Team",
+    "team_chief": "Andrea Stella",
+    "champion": 8,
+    "name": "McLaren"
   },
   {
-    "name": "Haas F1 Team",
-    "rank": "7",
-    "driver1": "Kevin Magnussen",
-    "driver2": "Nico Hulkenberg"
+    "fullname": "MoneyGram Haas F1 Team",
+    "team_chief": "Guenther Steiner",
+    "champion": 0,
+    "name": "Haas F1 Team"
   },
   {
-    "name": "Alfa Romeo",
-    "rank": "8",
-    "driver1": "Guanyu Zhou",
-    "driver2": "Valtteri Bottas"
+    "fullname": "Alfa Romeo F1 Team Stake",
+    "team_chief": "Alessandro Alunni Bravi",
+    "champion": 0,
+    "name": "Alfa Romeo"
   },
   {
-    "name": "AlphaTauri",
-    "rank": "9",
-    "driver1": "Yuki Tsunoda",
-    "driver2": "Nyck De Vries"
+    "fullname": "Scuderia AlphaTauri",
+    "team_chief": "Franz Tost",
+    "champion": 0,
+    "name": "AlphaTauri"
   },
   {
-    "name": "Williams",
-    "rank": "10",
-    "driver1": "Alexander Albon",
-    "driver2": "Logan Sargeant"
+    "fullname": "Williams Racing",
+    "team_chief": "James Vowles",
+    "champion": 9,
+    "name": "Williams"
   }
 ]
