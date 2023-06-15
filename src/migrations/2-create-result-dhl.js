@@ -12,7 +12,7 @@ module.exports = {
       driver: {
         allowNull: false,
         type: Sequelize.STRING,
-        references: {
+        reference: {
           model: 'drivers',
           key: 'fullname'
         }

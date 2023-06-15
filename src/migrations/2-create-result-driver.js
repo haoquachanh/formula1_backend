@@ -1,5 +1,4 @@
 'use strict';
-
 module.exports = {
   up: async (queryInterface, Sequelize) => {
     await queryInterface.createTable('resultdrivers', {
@@ -12,7 +11,7 @@ module.exports = {
       driver: {
         type: Sequelize.STRING,
         allowNull: false,
-        references: {
+        reference: {
           model: 'drivers',
           key: 'fullname'
         }
