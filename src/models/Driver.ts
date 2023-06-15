@@ -1,6 +1,6 @@
-'use strict';
 import { Model, DataTypes, Optional } from 'sequelize';
 import sequelize from '../connect_db';
+import Team from './Team';
 
 interface DriverAttributes {
   id: number;
@@ -52,7 +52,7 @@ Driver.init(
             primaryKey: true,
             type: DataTypes.STRING,
             references:{
-              model: 'Team',
+              model: Team,
               key: 'name',
             }
         },
@@ -77,7 +77,6 @@ Driver.init(
             type: DataTypes.STRING
         },
     },
-
   {
     sequelize,
     modelName: 'Driver',

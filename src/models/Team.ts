@@ -1,5 +1,6 @@
 import { Model, DataTypes,Optional } from 'sequelize';
 import sequelize from '../connect_db';
+import Driver from './Driver';
 
 interface TeamAttributes {
   id: number;
@@ -10,6 +11,7 @@ interface TeamAttributes {
 }
 
 interface TeamCreationAttributes extends Optional<TeamAttributes, 'id'> {}
+
 class Team extends Model<TeamAttributes, TeamCreationAttributes> implements TeamAttributes{
   public id!: number;
   public name!: string;
