@@ -1,12 +1,12 @@
-const resultTeam = require('../../crawler/resultTeam.json');
-const team = require('../../crawler/team.json');
-const schedule = require('../../crawler/schedule.json');
+const resultTeam = require('../../../crawler/resultTeam.json');
+const team = require('../../../crawler/team.json');
+const schedule = require('../../../crawler/schedule.json');
 
-const driver = require('../../crawler/driver.json');
+const driver = require('../../../crawler/driver.json');
 
-const resultDHL = require('../../crawler/resultDHL.json');
-const resultDriver = require('../../crawler/resultDriver.json');
-const resultRace = require('../../crawler/resultRace.json');
+const resultDHL = require('../../../crawler/resultDHL.json');
+const resultDriver = require('../../../crawler/resultDriver.json');
+const resultRace = require('../../../crawler/resultRace.json');
 
 module.exports = {
     up: async (queryInterface, Sequelize) => {

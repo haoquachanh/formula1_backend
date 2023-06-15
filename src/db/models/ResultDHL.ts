@@ -1,32 +1,33 @@
 import { Model, DataTypes, Optional } from 'sequelize';
-import sequelize from '../connect_db';
-interface ResultRaceAttributes {
+import sequelize from '../config/database';
+import Driver from './Driver';
+
+interface ResultDHLAttributes {
   id: number;
-  driver: string;
   car: string;
-  timeComplete: string;
-  date: string;
-  year: number;
+  driver: string;
   country: string;
+  timeComplete: string;
+  year: number;
 }
 
-interface ResultRaceCreationAttributes extends Optional<ResultRaceAttributes, 'id'> {}
+interface ResultDHLCreationAttributes extends Optional<ResultDHLAttributes, 'id'> {}
 
-class ResultRace extends Model<ResultRaceAttributes,ResultRaceCreationAttributes> implements ResultRaceAttributes {
+class ResultDHL extends Model<ResultDHLAttributes, ResultDHLCreationAttributes> implements ResultDHLAttributes {
   public id!: number;
   public driver!: string;
   public car!: string;
   public country!: string;
   public timeComplete!: string;
-  public date!: string;
   public year!: number;
+
   // Other model methods and associations here
-  static associate(models: any){
-    ResultRace.belongsTo(models.Driver, { foreignKey: 'driver' });
+  static associate(models: any) {
+    ResultDHL.belongsTo(models.Driver, { foreignKey: 'driver'});
   }
 }
 
-ResultRace.init(
+ResultDHL.init(
   {
     id: {
       type: DataTypes.INTEGER,
@@ -35,19 +36,15 @@ ResultRace.init(
       allowNull: false,
     },
     driver: {
-      type: DataTypes.STRING,
-      primaryKey: true,
       allowNull: false,
-      references:{
+      primaryKey: true,
+      type: DataTypes.STRING,
+      references: {
         model: 'Driver',
-        key: 'fullname'
-      }
+        key: 'fullname',
+      },
     },
     car: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
-    date: {
       type: DataTypes.STRING,
       allowNull: false,
     },
@@ -66,10 +63,10 @@ ResultRace.init(
   },
   {
     sequelize,
-    modelName: 'ResultRace',
-    tableName: 'resultraces',
+    modelName: 'ResultDHL',
+    tableName: 'resultdhls',
     timestamps: false,
   }
 );
 
-export default ResultRace;
+export default ResultDHL;

@@ -1,6 +1,6 @@
 'use strict';
 import { Model, DataTypes, Optional } from 'sequelize';
-import sequelize from '../connect_db';
+import sequelize from '../config/database';
 
 
 interface ScheduleAttributes {
