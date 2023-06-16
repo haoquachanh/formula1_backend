@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { In, Not, getRepository } from 'typeorm';
+import { In, Not, getRepository, FindManyOptions  } from 'typeorm';
 import { Driver } from '../../database/entities/Driver';
 import { driverSchema } from '../helper/joi_chema';
 
@@ -16,24 +16,60 @@ class DriverController {
     }
   }
 
-  static async getAll(req: Request, res: Response) {
-    const { year } = req.params;
-    const driverRepository = getRepository(Driver);
 
+  static async getAll(req: Request, res: Response) {
+    const driverRepository = getRepository(Driver);
     try {
-      const drivers = await driverRepository
-        .find({
-            where: {id: Not(In ([1,2,3]))}
-        });
-      res.status(200).json({
+      const { fullname, point, country, page, limit, sortBy, sortOrder } = req.query;
+  
+      // Tạo đối tượng query
+      const query: FindManyOptions<Driver> = {
+        where: { id: Not(In([1, 2, 3])) },
+      };
+  
+      // Xử lý filter
+      if (fullname) {
+        query.where = { ...query.where, fullname: fullname as string };
+      }
+      if (point) {
+        query.where = { ...query.where, point: Number(point) };
+      }
+      if (country) {
+        query.where = { ...query.where, country: country as string };
+      }
+  
+      // Xử lý sort
+      if (sortBy && sortOrder) {
+        query.order = { [sortBy as string]: sortOrder as 'ASC' | 'DESC' };
+      }
+  
+      // Xử lý paging
+      const pageNumber = Number(page) || 1;
+      const pageSize = Number(limit) || 10;
+      query.skip = (pageNumber - 1) * pageSize;
+      query.take = pageSize;
+  
+      // Query và kết quả
+      const [drivers, totalCount] = await driverRepository.findAndCount(query);
+  
+      return res.status(200).json({
         err: 0,
-        mess: "Got all users",
-        data: drivers
+        mess: 'Got all drivers',
+        page: pageNumber,
+        limit: pageSize,
+        totalCount: totalCount,
+        data: drivers,
       });
     } catch (error) {
       res.status(500).json({ error: 'An error occurred' });
     }
   }
+  
+
+
+      //
+      //
+      //
 
   static async deleteAllDrivers() {
     try {
