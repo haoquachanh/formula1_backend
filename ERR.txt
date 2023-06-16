@@ -1,0 +1,8 @@
+Trong khi crawl resultRHL 
+    xuất hiện: các tay đua gây lỗi: 
+    ["Daniel Ricciardo", "Guanyu Zhou"]
+    Daniel Ricciardo: không xuất hiện trong list crawl driver đã kiểm tra lại trên web, tay đua này có thể đã không còn tham gia nữa.
+    => Xóa tất cả tên của tay đua này đã cào được
+    Guanyu Zhou: hàm crawl chưa tốt nên chưa phân biệt người Trung Quốc phải đảo tên 
+    => (có thể thêm điều kiện đảo tên khi crawl) nhưng đã dùng replace cho nhanh.
+Khi crawl resultTeam thì có trường bị lỗi: pos: null trong khi đã ép kiểu Number() không đủ thời gian kiểm tra lại nên replace 0
