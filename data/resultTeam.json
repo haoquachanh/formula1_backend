@@ -1,0 +1,428 @@
+[
+  {
+    "team": "Red Bull Racing Honda RBPT",
+    "pos": 1,
+    "point": 287,
+    "year": 2023
+  },
+  {
+    "team": "Mercedes",
+    "pos": 2,
+    "point": 152,
+    "year": 2023
+  },
+  {
+    "team": "Aston Martin Aramco Mercedes",
+    "pos": 3,
+    "point": 134,
+    "year": 2023
+  },
+  {
+    "team": "Ferrari",
+    "pos": 4,
+    "point": 100,
+    "year": 2023
+  },
+  {
+    "team": "Alpine Renault",
+    "pos": 5,
+    "point": 40,
+    "year": 2023
+  },
+  {
+    "team": "McLaren Mercedes",
+    "pos": 6,
+    "point": 17,
+    "year": 2023
+  },
+  {
+    "team": "Haas Ferrari",
+    "pos": 7,
+    "point": 8,
+    "year": 2023
+  },
+  {
+    "team": "Alfa Romeo Ferrari",
+    "pos": 8,
+    "point": 8,
+    "year": 2023
+  },
+  {
+    "team": "AlphaTauri Honda RBPT",
+    "pos": 9,
+    "point": 2,
+    "year": 2023
+  },
+  {
+    "team": "Williams Mercedes",
+    "pos": 10,
+    "point": 1,
+    "year": 2023
+  },
+  {
+    "team": "Red Bull Racing RBPT",
+    "pos": 1,
+    "point": 759,
+    "year": 2022
+  },
+  {
+    "team": "Ferrari",
+    "pos": 2,
+    "point": 554,
+    "year": 2022
+  },
+  {
+    "team": "Mercedes",
+    "pos": 3,
+    "point": 515,
+    "year": 2022
+  },
+  {
+    "team": "Alpine Renault",
+    "pos": 4,
+    "point": 173,
+    "year": 2022
+  },
+  {
+    "team": "McLaren Mercedes",
+    "pos": 5,
+    "point": 159,
+    "year": 2022
+  },
+  {
+    "team": "Alfa Romeo Ferrari",
+    "pos": 6,
+    "point": 55,
+    "year": 2022
+  },
+  {
+    "team": "Aston Martin Aramco Mercedes",
+    "pos": 7,
+    "point": 55,
+    "year": 2022
+  },
+  {
+    "team": "Haas Ferrari",
+    "pos": 8,
+    "point": 37,
+    "year": 2022
+  },
+  {
+    "team": "AlphaTauri RBPT",
+    "pos": 9,
+    "point": 35,
+    "year": 2022
+  },
+  {
+    "team": "Williams Mercedes",
+    "pos": 10,
+    "point": 8,
+    "year": 2022
+  },
+  {
+    "team": "Mercedes",
+    "pos": 1,
+    "point": 613.5,
+    "year": 2021
+  },
+  {
+    "team": "Red Bull Racing Honda",
+    "pos": 2,
+    "point": 585.5,
+    "year": 2021
+  },
+  {
+    "team": "Ferrari",
+    "pos": 3,
+    "point": 323.5,
+    "year": 2021
+  },
+  {
+    "team": "McLaren Mercedes",
+    "pos": 4,
+    "point": 275,
+    "year": 2021
+  },
+  {
+    "team": "Alpine Renault",
+    "pos": 5,
+    "point": 155,
+    "year": 2021
+  },
+  {
+    "team": "AlphaTauri Honda",
+    "pos": 6,
+    "point": 142,
+    "year": 2021
+  },
+  {
+    "team": "Aston Martin Mercedes",
+    "pos": 7,
+    "point": 77,
+    "year": 2021
+  },
+  {
+    "team": "Williams Mercedes",
+    "pos": 8,
+    "point": 23,
+    "year": 2021
+  },
+  {
+    "team": "Alfa Romeo Racing Ferrari",
+    "pos": 9,
+    "point": 13,
+    "year": 2021
+  },
+  {
+    "team": "Haas Ferrari",
+    "pos": 10,
+    "point": 0,
+    "year": 2021
+  },
+  {
+    "team": "Mercedes",
+    "pos": 1,
+    "point": 573,
+    "year": 2020
+  },
+  {
+    "team": "Red Bull Racing Honda",
+    "pos": 2,
+    "point": 319,
+    "year": 2020
+  },
+  {
+    "team": "McLaren Renault",
+    "pos": 3,
+    "point": 202,
+    "year": 2020
+  },
+  {
+    "team": "Racing Point BWT Mercedes",
+    "pos": 4,
+    "point": 195,
+    "year": 2020
+  },
+  {
+    "team": "Renault",
+    "pos": 5,
+    "point": 181,
+    "year": 2020
+  },
+  {
+    "team": "Ferrari",
+    "pos": 6,
+    "point": 131,
+    "year": 2020
+  },
+  {
+    "team": "AlphaTauri Honda",
+    "pos": 7,
+    "point": 107,
+    "year": 2020
+  },
+  {
+    "team": "Alfa Romeo Racing Ferrari",
+    "pos": 8,
+    "point": 8,
+    "year": 2020
+  },
+  {
+    "team": "Haas Ferrari",
+    "pos": 9,
+    "point": 3,
+    "year": 2020
+  },
+  {
+    "team": "Williams Mercedes",
+    "pos": 10,
+    "point": 0,
+    "year": 2020
+  },
+  {
+    "team": "Mercedes",
+    "pos": 1,
+    "point": 739,
+    "year": 2019
+  },
+  {
+    "team": "Ferrari",
+    "pos": 2,
+    "point": 504,
+    "year": 2019
+  },
+  {
+    "team": "Red Bull Racing Honda",
+    "pos": 3,
+    "point": 417,
+    "year": 2019
+  },
+  {
+    "team": "McLaren Renault",
+    "pos": 4,
+    "point": 145,
+    "year": 2019
+  },
+  {
+    "team": "Renault",
+    "pos": 5,
+    "point": 91,
+    "year": 2019
+  },
+  {
+    "team": "Scuderia Toro Rosso Honda",
+    "pos": 6,
+    "point": 85,
+    "year": 2019
+  },
+  {
+    "team": "Racing Point BWT Mercedes",
+    "pos": 7,
+    "point": 73,
+    "year": 2019
+  },
+  {
+    "team": "Alfa Romeo Racing Ferrari",
+    "pos": 8,
+    "point": 57,
+    "year": 2019
+  },
+  {
+    "team": "Haas Ferrari",
+    "pos": 9,
+    "point": 28,
+    "year": 2019
+  },
+  {
+    "team": "Williams Mercedes",
+    "pos": 10,
+    "point": 1,
+    "year": 2019
+  },
+  {
+    "team": "Mercedes",
+    "pos": 1,
+    "point": 655,
+    "year": 2018
+  },
+  {
+    "team": "Ferrari",
+    "pos": 2,
+    "point": 571,
+    "year": 2018
+  },
+  {
+    "team": "Red Bull Racing TAG Heuer",
+    "pos": 3,
+    "point": 419,
+    "year": 2018
+  },
+  {
+    "team": "Renault",
+    "pos": 4,
+    "point": 122,
+    "year": 2018
+  },
+  {
+    "team": "Haas Ferrari",
+    "pos": 5,
+    "point": 93,
+    "year": 2018
+  },
+  {
+    "team": "McLaren Renault",
+    "pos": 6,
+    "point": 62,
+    "year": 2018
+  },
+  {
+    "team": "Force India Mercedes",
+    "pos": 7,
+    "point": 52,
+    "year": 2018
+  },
+  {
+    "team": "Sauber Ferrari",
+    "pos": 8,
+    "point": 48,
+    "year": 2018
+  },
+  {
+    "team": "Scuderia Toro Rosso Honda",
+    "pos": 9,
+    "point": 33,
+    "year": 2018
+  },
+  {
+    "team": "Williams Mercedes",
+    "pos": 10,
+    "point": 7,
+    "year": 2018
+  },
+  {
+    "team": "Force India Sahara",
+    "pos": 0,
+    "point": 0,
+    "year": 2018
+  },
+  {
+    "team": "Mercedes",
+    "pos": 1,
+    "point": 668,
+    "year": 2017
+  },
+  {
+    "team": "Ferrari",
+    "pos": 2,
+    "point": 522,
+    "year": 2017
+  },
+  {
+    "team": "Red Bull Racing TAG Heuer",
+    "pos": 3,
+    "point": 368,
+    "year": 2017
+  },
+  {
+    "team": "Force India Mercedes",
+    "pos": 4,
+    "point": 187,
+    "year": 2017
+  },
+  {
+    "team": "Williams Mercedes",
+    "pos": 5,
+    "point": 83,
+    "year": 2017
+  },
+  {
+    "team": "Renault",
+    "pos": 6,
+    "point": 57,
+    "year": 2017
+  },
+  {
+    "team": "Toro Rosso",
+    "pos": 7,
+    "point": 53,
+    "year": 2017
+  },
+  {
+    "team": "Haas Ferrari",
+    "pos": 8,
+    "point": 47,
+    "year": 2017
+  },
+  {
+    "team": "McLaren Honda",
+    "pos": 9,
+    "point": 30,
+    "year": 2017
+  },
+  {
+    "team": "Sauber Ferrari",
+    "pos": 10,
+    "point": 5,
+    "year": 2017
+  }
+]

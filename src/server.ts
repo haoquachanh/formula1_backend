@@ -1,26 +1,20 @@
-import express, { Request, Response } from 'express';
-require('./connect_db')
-import mysql from 'mysql2/promise';
-import axios from 'axios';
-require('dotenv').config()
+import "reflect-metadata";
+import express from "express";
+import { createConnection } from "typeorm";
+// import userRoutes from "./api/routes/userRoutes";
 
-// Tạo một ứng dụng Express
 const app = express();
-const Port= process.env.PORT || 5000
+const port = 3000;
 
+app.use(express.json());
+// app.use("/users", userRoutes);
 
-// Khai báo các endpoint cho REST API
-app.get('/results', async (req: Request, res: Response) => {
-  // Lấy thông tin từ trang web formula1.com bằng cách gửi yêu cầu HTTP sử dụng axios
-  const response = await axios.get('https://www.formula1.com/results.html');
+// console.log(port);
 
-  // Xử lý dữ liệu từ response và lưu vào cơ sở dữ liệu
-
-  // Trả về kết quả cho người dùng
-  res.send('Results API');
-});
-
-// Khởi động server
-app.listen(Port, () => {
-  console.log(`Server is running on port ${Port}`);
-});
+createConnection()
+  .then(() => {
+    app.listen(port, () => {
+      console.log(`Server is running on port ${port}`);
+    });
+  })
+  .catch((error) => console.log(error));

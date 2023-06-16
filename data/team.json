@@ -1,0 +1,62 @@
+[
+  {
+    "fullname": "Oracle Red Bull Racing",
+    "team_chief": "Christian Horner",
+    "champion": 5,
+    "name": "Red Bull Racing"
+  },
+  {
+    "fullname": "Mercedes-AMG PETRONAS F1 Team",
+    "team_chief": "Toto Wolff",
+    "champion": 8,
+    "name": "Mercedes"
+  },
+  {
+    "fullname": "Aston Martin Aramco Cognizant F1 Team",
+    "team_chief": "Mike Krack",
+    "champion": 0,
+    "name": "Aston Martin"
+  },
+  {
+    "fullname": "Scuderia Ferrari",
+    "team_chief": "Frédéric Vasseur",
+    "champion": 16,
+    "name": "Ferrari"
+  },
+  {
+    "fullname": "BWT Alpine F1 Team",
+    "team_chief": "Otmar Szafnauer",
+    "champion": 2,
+    "name": "Alpine"
+  },
+  {
+    "fullname": "McLaren F1 Team",
+    "team_chief": "Andrea Stella",
+    "champion": 8,
+    "name": "McLaren"
+  },
+  {
+    "fullname": "MoneyGram Haas F1 Team",
+    "team_chief": "Guenther Steiner",
+    "champion": 0,
+    "name": "Haas F1 Team"
+  },
+  {
+    "fullname": "Alfa Romeo F1 Team Stake",
+    "team_chief": "Alessandro Alunni Bravi",
+    "champion": 0,
+    "name": "Alfa Romeo"
+  },
+  {
+    "fullname": "Scuderia AlphaTauri",
+    "team_chief": "Franz Tost",
+    "champion": 0,
+    "name": "AlphaTauri"
+  },
+  {
+    "fullname": "Williams Racing",
+    "team_chief": "James Vowles",
+    "champion": 9,
+    "name": "Williams"
+  }
+]
