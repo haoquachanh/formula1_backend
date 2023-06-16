@@ -1,6 +1,6 @@
 [
   {
-    "driver": "Guanyu Zhou",
+    "driver": "Zhou Guanyu",
     "timeComplete": "1:33.996",
     "country": "Bahrain",
     "car": "Alfa Romeo Ferrari",
@@ -168,7 +168,7 @@
     "year": 2022
   },
   {
-    "driver": "Guanyu Zhou",
+    "driver": "Zhou Guanyu",
     "timeComplete": "1:44.411",
     "country": "Japan",
     "car": "Alfa Romeo Ferrari",
@@ -287,13 +287,6 @@
     "year": 2021
   },
   {
-    "driver": "Daniel Ricciardo",
-    "timeComplete": "1:24.812",
-    "country": "Italy",
-    "car": "McLaren Mercedes",
-    "year": 2021
-  },
-  {
     "driver": "Lando Norris",
     "timeComplete": "1:37.423",
     "country": "Russia",
@@ -392,13 +385,6 @@
     "year": 2020
   },
   {
-    "driver": "Daniel Ricciardo",
-    "timeComplete": "1:47.483",
-    "country": "Belgium",
-    "car": "Renault",
-    "year": 2020
-  },
-  {
     "driver": "Lewis Hamilton",
     "timeComplete": "1:22.746",
     "country": "Italy",
@@ -459,13 +445,6 @@
     "timeComplete": "55.404",
     "country": "Sakhir",
     "car": "Mercedes",
-    "year": 2020
-  },
-  {
-    "driver": "Daniel Ricciardo",
-    "timeComplete": "1:40.926",
-    "country": "Abu Dhabi",
-    "car": "Renault",
     "year": 2020
   },
   {
@@ -616,13 +595,6 @@
     "year": 2019
   },
   {
-    "driver": "Daniel Ricciardo",
-    "timeComplete": "1:25.945",
-    "country": "Australia",
-    "car": "Red Bull Racing TAG Heuer",
-    "year": 2018
-  },
-  {
     "driver": "Valtteri Bottas",
     "timeComplete": "1:33.740",
     "country": "Bahrain",
@@ -630,24 +602,10 @@
     "year": 2018
   },
   {
-    "driver": "Daniel Ricciardo",
-    "timeComplete": "1:35.785",
-    "country": "China",
-    "car": "Red Bull Racing TAG Heuer",
-    "year": 2018
-  },
-  {
     "driver": "Valtteri Bottas",
     "timeComplete": "1:45.149",
     "country": "Azerbaijan",
     "car": "Mercedes",
-    "year": 2018
-  },
-  {
-    "driver": "Daniel Ricciardo",
-    "timeComplete": "1:18.441",
-    "country": "Spain",
-    "car": "Red Bull Racing TAG Heuer",
     "year": 2018
   },
   {
@@ -690,13 +648,6 @@
     "timeComplete": "1:15.545",
     "country": "Germany",
     "car": "Mercedes",
-    "year": 2018
-  },
-  {
-    "driver": "Daniel Ricciardo",
-    "timeComplete": "1:20.012",
-    "country": "Hungary",
-    "car": "Red Bull Racing TAG Heuer",
     "year": 2018
   },
   {
@@ -844,13 +795,6 @@
     "timeComplete": "1:46.577",
     "country": "Belgium",
     "car": "Ferrari",
-    "year": 2017
-  },
-  {
-    "driver": "Daniel Ricciardo",
-    "timeComplete": "1:23.361",
-    "country": "Italy",
-    "car": "Red Bull Racing TAG Heuer",
     "year": 2017
   },
   {
