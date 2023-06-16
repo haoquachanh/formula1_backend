@@ -15,10 +15,10 @@ export class Schedule {
   @Column()
   place!: string;
 
+  @Column()
+  year!: number;
+  
   @ManyToMany(() => Driver)
   @JoinTable()
   drivers?: Driver[];
-
-  @Column()
-  year!: number;
 }

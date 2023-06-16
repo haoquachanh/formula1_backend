@@ -1,6 +1,7 @@
-GET http://localhost:3002/drivers/
-
+#sortBy= <NameAttributeWantSort> & sortOrder=DESC|ASC & point=x mean point>=x   
+GET http://localhost:3002/drivers?limit=5&page=1&fullname=&point=50&sortBy=champion&sortOrder=ASC
 ###
+
 POST  http://localhost:3002/drivers/
 Content-Type: application/json
 
@@ -26,3 +27,9 @@ Content-Type: application/json
     "number": 15,
     "avt": "https://nationaltoday.com/wp-content/uploads/2022/10/456841065-min-1200x834.jpg"
 }
+
+###
+# Dont have account then verify delete by deleteAll
+DELETE http://localhost:3002/drivers?deleteAll=true
+###
+DELETE http://localhost:3002/drivers?id=5

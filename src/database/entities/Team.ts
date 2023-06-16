@@ -22,6 +22,6 @@ export class Team {
   @OneToMany(()=> Driver, driver => driver.team)
   drivers!: Driver[];
 
-  @OneToMany(()=>ResultTeam, r=> r.team)
+  @OneToMany(()=>ResultTeam, r=> r.team, {cascade : true})
   results!: ResultTeam[];
 }

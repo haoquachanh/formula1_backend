@@ -116,44 +116,35 @@ class DriverController {
     });  
   }
 
-  // static async deleteDrivers(req: Request, res: Response): Promise<void>{
-  // return new Promise<void>(async(resolve, reject) =>{
-  //   try {
-  //     const {id, deleteAll} = req.query
-  //     const driverRepository = getRepository(Driver);
-      
-  //     // Xóa các bản ghi liên quan trong bảng có khóa ngoại
-  //     // await driverRepository.manager.transaction(async (entityManager) => {
-  //       // const driver = await entityManager.findOne(Driver, id, { relations: ["teams", "resultsdhl", "resultDrivers", "resultRaces", "schedules"] });
-  //       // const driver = await entityManager.findOneOrFail(Driver, id, { relations: ["teams", "resultsdhl", "resultDrivers", "resultRaces", "schedules"] });
+  static deleteDrivers(req: Request, res: Response): Promise<void> {
+    return new Promise<void>(async(resolve, reject) => {
+    try {
+      const id = Number(req.query.id);
+      const driverRepository = getRepository(Driver);
+      // const deleter = await driverRepository.findOne({where:{ id: id} });
 
 
-  //       // if (driver) {
-  //       //   if (driver.team) {
-  //       //     await entityManager.remove(driver.team);
-  //       //   }
-  //       //   if (driver.resultsdhl) {
-  //       //     await entityManager.remove(driver.resultsdhl);
-  //       //   }
-  //       //   if (driver.resultDrivers) {
-  //       //     await entityManager.remove(driver.resultDrivers);
-  //       //   }
-  //       //   if (driver.resultRaces) {
-  //       //     await entityManager.remove(driver.resultRaces);
-  //       //   }
-  //       //   if (driver.schedules) {
-  //       //     await entityManager.remove(driver.schedules);
-  //       //   }
-  //       // }
+      // await driverRepository.remove(driver);
 
-  //       // Xóa driver chính
-  //       // await entityManager.remove(driver);
-  //       resolve()
-  //     };
+      const deleter=await driverRepository
+        .createQueryBuilder('drivers')
+        .delete()
+        .from(Driver)
+        .where("id = :id", {id: id})
+        .execute()
 
-  //   } catch (error) {
-  //     console.error('Error deleting driver:', error);
-  //   }
-  // })
+
+      if (!deleter) {
+        res.status(404).json({ err: 1, mes: 'Driver not found' });
+        return;
+      }
+      res.status(200).json({ err: 0, mes: 'Deleted driver and related records' });
+      resolve();
+    } catch (error) {
+      res.status(500).json({ err: 1, mes: 'An error occurred' });
+      reject(error);
+    }
+  })}
+
 }
 export default DriverController;

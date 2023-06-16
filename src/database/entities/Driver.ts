@@ -1,4 +1,4 @@
-import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, OneToMany, ManyToMany, JoinTable } from 'typeorm';
+import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, OneToMany, ManyToMany, JoinTable, DeleteDateColumn} from 'typeorm';
 import { Team } from './Team';
 import { ResultDHL } from './ResultDHL';
 import { ResultDriver } from './ResultDriver';
@@ -29,20 +29,23 @@ export class Driver {
   avt!: string;
   
   
-  @ManyToOne(() => Team, team => team.drivers)
+  @ManyToOne(() => Team, team => team.drivers, {cascade : true})
   team!: Team;
 
-  @OneToMany(() => ResultDHL, resultDHL => resultDHL.driver)
-  resultsdhl!: ResultDHL;
+  @OneToMany(() => ResultDHL, resultDHL => resultDHL.driver, {cascade : true, onDelete: "CASCADE"})
+  resultsdhl!: ResultDHL[];
 
-  @OneToMany(() => ResultDriver, c => c.driver)
+  @OneToMany(() => ResultDriver, c => c.driver, {cascade : true})
   resultDrivers!: ResultDriver[];
   
-  @OneToMany(() => ResultRace, c => c.driver)
+  @OneToMany(() => ResultRace, c => c.driver, {cascade : true})
   resultRaces!: ResultRace[];
 
-  @ManyToMany(() => Schedule)
+  @ManyToMany(() => Schedule, {cascade : true})
   @JoinTable()
   schedules!: Schedule[];
+
+  @DeleteDateColumn()
+  deletedAt!: Date;
 
 }
