@@ -1,26 +1,14 @@
-import { Request, Response } from 'express';
-import { In, Not, getRepository, FindManyOptions  } from 'typeorm';
+import { Request, Response, query } from 'express';
+import { In, Not, getRepository, FindManyOptions, MoreThanOrEqual  } from 'typeorm';
 import { Driver } from '../../database/entities/Driver';
 import { driverSchema } from '../helper/joi_chema';
+import Joi from 'joi';
 
 class DriverController {
-  static async getByYear(req: Request, res: Response) {
-    const { year } = req.params;
-    const driverRepository = getRepository(Driver);
-
-    try {
-      const drivers = await driverRepository.find({ where: { fullname: year } });
-      res.json(drivers);
-    } catch (error) {
-      res.status(500).json({ error: 'An error occurred' });
-    }
-  }
-
-
-  static async getAll(req: Request, res: Response) {
+  static async getDrivers(req: Request, res: Response) {
     const driverRepository = getRepository(Driver);
     try {
-      const { fullname, point, country, page, limit, sortBy, sortOrder } = req.query;
+      const { id, fullname, point, country, page, limit, sortBy, sortOrder } = req.query;
   
       // Tạo đối tượng query
       const query: FindManyOptions<Driver> = {
@@ -28,11 +16,14 @@ class DriverController {
       };
   
       // Xử lý filter
+      if (id) {
+        query.where = { ...query.where, id: Number(id) };
+      }
       if (fullname) {
         query.where = { ...query.where, fullname: fullname as string };
       }
       if (point) {
-        query.where = { ...query.where, point: Number(point) };
+        query.where = { ...query.where, point: MoreThanOrEqual(Number(point)) };
       }
       if (country) {
         query.where = { ...query.where, country: country as string };
@@ -45,7 +36,7 @@ class DriverController {
   
       // Xử lý paging
       const pageNumber = Number(page) || 1;
-      const pageSize = Number(limit) || 10;
+      const pageSize = Number(limit) || 5;
       query.skip = (pageNumber - 1) * pageSize;
       query.take = pageSize;
   
@@ -54,71 +45,55 @@ class DriverController {
   
       return res.status(200).json({
         err: 0,
-        mess: 'Got all drivers',
+        mess: `Got ${totalCount} drivers`,
+        totalDrivers: totalCount,
         page: pageNumber,
         limit: pageSize,
-        totalCount: totalCount,
         data: drivers,
       });
     } catch (error) {
       res.status(500).json({ error: 'An error occurred' });
     }
   }
-  
 
+  static createDriver(req: Request, res: Response): Promise<void> {
+    return new Promise<void>(async(resolve, reject) => {
+      try {
+        const { error, value } = driverSchema.validate(req.body)
+        if (error) throw error
+    
+        const driverRepository = getRepository(Driver)
+        let inserter=await driverRepository
+          .createQueryBuilder()
+          .insert()
+          .into(Driver)
+          .values(value)
+          .execute()
+        let idCreated = inserter.generatedMaps[0].id
 
-      //
-      //
-      //
-
-  static async deleteAllDrivers() {
-    try {
-      const driverRepository = getRepository(Driver);
-      const result = await driverRepository
-        .createQueryBuilder()
-        .delete()
-        .from(Driver)
-        .execute();
-  
-      console.log('Deleted drivers:', result.affected);
-    } catch (error) {
-      console.error('Error deleting drivers:', error);
-    }
+        res.status(201).json({
+          err: 0,
+          mes: 'Created driver!',
+          id: idCreated
+        });
+      } catch (error) {
+        res.status(400).json({
+          err: 1,
+          mes: 'Invalid request',
+          error: "Error: "+ error
+        });
+      }
+    })
   }
 
-  static async createNewDriver(req: Request, res: Response){
-    try {
-      let {country, point, champion, fullname, number,avt} = req.body
-      const driverRepository = getRepository(Driver);
-      const newDriver = new Driver();
-      newDriver.country = country
-      newDriver.point = point;
-      newDriver.champion = champion 
-      newDriver.fullname = fullname;
-      newDriver.number = number 
-      newDriver.avt = avt
-  
-      // Lưu tài xế vào cơ sở dữ liệu
-      await driverRepository.save(newDriver);
-      res.status(200).json({
-        err:0,
-        mes: "Driver created !"
-      })
-      // console.log('Created driver:', createdDriver);
-
-    } catch (error) {
-      console.error('Error creating driver: ', error);
-    }
-  }
-
-  static updateOneDriver(req: Request, res: Response): Promise<void> {
+  static updateDriver(req: Request, res: Response): Promise<void> {
     return new Promise<void>(async(resolve, reject) => {
       try {
           const { error, value } = driverSchema.validate(req.body);
+          if (error) throw error;
           const id = Number(req.query?.id)
-
           const driverRepository = getRepository(Driver);
-          const updater= await driverRepository
+          await driverRepository
             .createQueryBuilder()
             .update(Driver)
             .where("id = :id", {id: id })
@@ -134,15 +109,51 @@ class DriverController {
           // await driverRepository.save(updater)
           resolve()
       } catch (error) {
+        res.status(500).json({ err: 1, mes: `Error ${error}` })
         reject(error);
       }
 
-    });
-  
-  
+    });  
   }
 
+  // static async deleteDrivers(req: Request, res: Response): Promise<void>{
+  // return new Promise<void>(async(resolve, reject) =>{
+  //   try {
+  //     const {id, deleteAll} = req.query
+  //     const driverRepository = getRepository(Driver);
+      
+  //     // Xóa các bản ghi liên quan trong bảng có khóa ngoại
+  //     // await driverRepository.manager.transaction(async (entityManager) => {
+  //       // const driver = await entityManager.findOne(Driver, id, { relations: ["teams", "resultsdhl", "resultDrivers", "resultRaces", "schedules"] });
+  //       // const driver = await entityManager.findOneOrFail(Driver, id, { relations: ["teams", "resultsdhl", "resultDrivers", "resultRaces", "schedules"] });
 
+
+  //       // if (driver) {
+  //       //   if (driver.team) {
+  //       //     await entityManager.remove(driver.team);
+  //       //   }
+  //       //   if (driver.resultsdhl) {
+  //       //     await entityManager.remove(driver.resultsdhl);
+  //       //   }
+  //       //   if (driver.resultDrivers) {
+  //       //     await entityManager.remove(driver.resultDrivers);
+  //       //   }
+  //       //   if (driver.resultRaces) {
+  //       //     await entityManager.remove(driver.resultRaces);
+  //       //   }
+  //       //   if (driver.schedules) {
+  //       //     await entityManager.remove(driver.schedules);
+  //       //   }
+  //       // }
+
+  //       // Xóa driver chính
+  //       // await entityManager.remove(driver);
+  //       resolve()
+  //     };
+
+  //   } catch (error) {
+  //     console.error('Error deleting driver:', error);
+  //   }
+  // })
 }
-
 export default DriverController;
