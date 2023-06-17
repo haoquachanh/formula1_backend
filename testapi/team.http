@@ -1,0 +1,35 @@
+#sortBy= <NameAttributeWantSort> & sortOrder=DESC|ASC & point=x mean point>=x   
+GET http://localhost:3002/team?limit=5&page=1&fullname=&point=50&sortBy=champion&sortOrder=ASC
+###
+
+POST  http://localhost:3002/team/
+Content-Type: application/json
+
+{
+    "country": "America",
+    "point": 2,
+    "fullname": "John Cena",
+    "champion": 3,
+    "number": 15,
+    "avt": "https://nationaltoday.com/wp-content/uploads/2022/10/456841065-min-1200x834.jpg"
+}
+
+
+###
+PUT  http://localhost:3002/team?id=24
+Content-Type: application/json
+
+{
+    "country": "Viet Nam",
+    "point": 2,
+    "fullname": "Vrillar VN",
+    "champion": 3,
+    "number": 15,
+    "avt": "https://nationaltoday.com/wp-content/uploads/2022/10/456841065-min-1200x834.jpg"
+}
+
+###
+# Dont have account then verify delete by deleteAll
+DELETE http://localhost:3002/team?deleteAll=true
+###
+DELETE http://localhost:3002/team?id=5

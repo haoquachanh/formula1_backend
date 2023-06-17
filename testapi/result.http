@@ -1,0 +1,9 @@
+#sortBy= <NameAttributeWantSort> & sortOrder=DESC|ASC & point=x mean point>=x   
+GET http://localhost:3002/results/dhl/2020
+###
+GET http://localhost:3002/results/race/2020
+###
+GET http://localhost:3002/results/driver/2020
+###
+GET http://localhost:3002/results/team/2020
+###
